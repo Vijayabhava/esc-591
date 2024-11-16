@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 dotenv.config();
 
 const corsOptions = {
-  origin: 'https://school-mate-swe.vercel.app/', // Allow only this domain
+  origin: 'https://school-mate-swe.vercel.app', // Allow only this domain
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
   credentials: true, // If you need to send cookies or headers
 };
